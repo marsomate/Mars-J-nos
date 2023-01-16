@@ -1,0 +1,181 @@
+h1{
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+h3{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+    padding:2%;
+    font-weight: bold;
+}
+h4{
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+p{
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+    line-height: 1.5;
+}
+.white-{
+    color: white;
+
+}
+.navbar{
+    background-color: #393c3d;
+}
+.toggler{
+    color: wheat;
+}
+.navbar-brand{
+    color: #DBE2EF;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: #DBE2EF;
+}
+.first-container{
+    background-image: url('https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0;
+    position: relative;
+}
+.profile-picture{
+    width: 300px;
+    height: auto;
+    margin: 10% 10%;
+}
+.intro-1{
+    padding: 5%;
+}
+.robot-picture{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+}
+.robot-picture-hidden{
+    width: 300px;
+    position: relative;
+    bottom: 0;
+    right: 20%;
+    visibility: hidden;
+}
+#second{
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    padding : 5% 5%;
+
+}
+
+.bio{
+    padding: 2%;
+    text-align: center;
+    display: block;
+}
+.skill-elements{
+    padding-top: 3%;
+    text-decoration: underline;
+}
+
+.third-container{
+    background-image: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1800&t=st=1673881817~exp=1673882417~hmac=acb3a0f1a85b747ab6df7bd6d5887d6f0c31bf9ff2884cebd46354e29b315f0d');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 5%;
+}
+.testimonial-text{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+    font-size: 1.2rem;
+    color: white;
+}
+.carousel-1{
+    height: 300px;
+}
+.support{
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    padding: 5%;
+    padding-bottom: 2%;
+    position: relative;
+}
+.tihany{
+    text-align: center;
+    position: relative;
+
+}
+.tihany-picture{
+    width: 25%;
+    display: block;
+    position: relative;
+    margin: auto;
+    bottom:20%;
+}
+.tihany-picture-hidden{
+    width: 200px;  
+    visibility: hidden;  
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+.end{
+    background-image: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1800&t=st=1673881817~exp=1673882417~hmac=acb3a0f1a85b747ab6df7bd6d5887d6f0c31bf9ff2884cebd46354e29b315f0d');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    padding: 1%;
+    text-align: center;
+}
+.copy{
+    padding:1%;
+    font-size: 1rem;
+    color: white;
+}
+@media (max-width: 1024px) {
+    .robot-picture{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        visibility: hidden;
+    }
+    .robot-picture-hidden{
+        width: 300px;
+        position: absolute;
+        bottom: 0;
+        right: 20%;
+        visibility: hidden;
+    }
+}
