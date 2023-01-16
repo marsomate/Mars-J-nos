@@ -1,25 +1,26 @@
 h1{
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
     font-size: 4rem;
     line-height: 1.5;
 }
 h2{
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
     font-size: 2rem;
     line-height: 1.5;
 
 }
 h3{
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
     font-size: 2rem;
     line-height: 1.5;
     padding:2%;
     font-weight: bold;
 }
 h4{
-    font-family: 'Montserrat';
+    font-family: 'Merriweather';
     font-size: 2rem;
     line-height: 1.5;
+    color:white
 
 }
 p{
@@ -35,18 +36,19 @@ p{
     background-color: #393c3d;
 }
 .toggler{
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 .navbar-brand{
-    color: #DBE2EF;
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.5rem;
 }
 .nav-link{
-    color: #DBE2EF;
+    color: #ffffff;
+font-size: 1.5rem;
 }
 .first-container{
-    background-image: url('https://cdn.pixabay.com/photo/2020/05/06/06/18/blue-5136251_960_720.jpg');
+    background-image: url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?size=626&ext=jpg&ga=GA1.1.1747650800.1673881807&semt=sph');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin:0;
@@ -63,7 +65,7 @@ p{
 .robot-picture{
     width: 300px;
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     right: 20%;
 }
 .robot-picture-hidden{
@@ -74,14 +76,16 @@ p{
     visibility: hidden;
 }
 #second{
-    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
+    background-image: url('https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?w=1380&t=st=1673888040~exp=1673888640~hmac=74bcd36b561bc002e48d8b057e551519e4ed6f8790f032a4232a74b2e56ac067');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
     padding : 5% 5%;
 
 }
-
+.hobbies{
+    padding: 10%;
+}
 .bio{
     padding: 2%;
     text-align: center;
@@ -93,7 +97,7 @@ p{
 }
 
 .third-container{
-    background-image: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1800&t=st=1673881817~exp=1673882417~hmac=acb3a0f1a85b747ab6df7bd6d5887d6f0c31bf9ff2884cebd46354e29b315f0d');
+    background-image: url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?size=626&ext=jpg&ga=GA1.1.1747650800.1673881807&semt=sph');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -113,7 +117,7 @@ p{
 }
 .support{
     text-align: center;
-    background-image: url('https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_960_720.jpg');
+    background-image: url('https://img.freepik.com/free-photo/beautiful-milky-way-night-sky_53876-139825.jpg?w=1380&t=st=1673888040~exp=1673888640~hmac=74bcd36b561bc002e48d8b057e551519e4ed6f8790f032a4232a74b2e56ac067');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
@@ -151,7 +155,7 @@ p{
     height: 100%;
   }
 .end{
-    background-image: url('https://img.freepik.com/free-vector/abstract-business-professional-background-banner-design-multipurpose_1340-16858.jpg?w=1800&t=st=1673881817~exp=1673882417~hmac=acb3a0f1a85b747ab6df7bd6d5887d6f0c31bf9ff2884cebd46354e29b315f0d');
+    background-image: url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?size=626&ext=jpg&ga=GA1.1.1747650800.1673881807&semt=sph');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: 100% 100%;
